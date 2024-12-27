@@ -1,0 +1,23 @@
+2024-12-27T02:08:27.409Z - POST /api/ai/query - {"question":"Hi there!"}
+2024-12-27T02:09:23.685Z - POST /api/ai/query - {"question":"what is MCA Software Solutions"}
+2024-12-27T02:57:35.279Z - GET /api/ai/test - {}
+2024-12-27T02:57:35.504Z - GET /favicon.ico - {}
+2024-12-27T03:01:27.740Z - POST /api/ai/query - {"question":"hello there!"}
+2024-12-27T03:06:23.379Z - POST /api/ai/query - {"question":"hi there!"}
+2024-12-27T03:06:30.716Z - POST /api/ai/query - {"question":"what is mca"}
+2024-12-27T03:11:24.551Z - POST /api/ai/query - {"question":"hello there!"}
+2024-12-27T03:11:47.667Z - POST /api/ai/query - {"question":"I want to know more about MCA Software Solutions."}
+2024-12-27T03:28:08.141Z - POST /api/ai/query - {"question":"tell me about mca?"}
+2024-12-27T03:31:55.074Z - POST /api/ai/query - {"question":"what are the kind of specialization in mca?"}
+2024-12-27T03:37:42.422Z - POST /api/ai/query - {"question":"I want to know what mca stands for?"}
+2024-12-27T03:51:40.116Z - POST /api/ai/query - {"question":"Hi there"}
+2024-12-27T03:52:11.030Z - POST /api/ai/query - {"question":"I want to know what MCA stands for?"}
+2024-12-27T03:52:59.564Z - POST /api/ai/query - {"question":"Ok,what support services do you offer?"}
+2024-12-27T03:53:42.224Z - POST /api/ai/query - {"question":"what are your pricing models?"}
+2024-12-27T03:54:18.097Z - POST /api/ai/query - {"question":"How do you handle contracts and agreements?"}
+2024-12-27T03:54:51.077Z - POST /api/ai/query - {"question":"How do you handle intellectual property?"}
+2024-12-27T03:55:25.507Z - POST /api/ai/query - {"question":"tell me types of services you offer?"}
+2024-12-27T03:57:09.375Z - POST /api/ai/query - {"question":"Can you share some of your success stories?"}
+2024-12-27T03:59:11.396Z - POST /api/ai/query - {"question":"can you share some of the names of your past cleints?"}
+2024-12-27T04:00:31.055Z - POST /api/ai/query - {"question":"good next time you ask a follow-up questions such as please if you want give me your e-mails, our manager will get back to you."}
+2024-12-27T04:01:17.018Z - POST /api/ai/query - {"question":"Yah that is also good enough. Anyways, Thank you bye for now."}

@@ -1,0 +1,124 @@
+.services-page {
+  position: relative;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Subtle background for better readability */
+  font-family: Arial, sans-serif;
+}
+
+.services-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0078d7; /* Header background */
+  color: #fff; /* Header text */
+}
+
+.services-header h2 {
+  font-size: 2.5rem; /* Slightly larger for emphasis */
+  margin-bottom: 10px;
+}
+
+.nav-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between navigation links */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* Primary link color */
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #005bb5; /* Hover background */
+  color: #fff; /* Hover text */
+}
+
+.services-content {
+  margin: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.services-content h3 {
+  margin-top: 20px;
+  color: #333; /* Darker color for headings */
+  font-weight: bold;
+}
+
+.services-content h4 {
+  margin-top: 15px;
+  color: #555; /* Slightly lighter color for subheadings */
+  font-weight: bold;
+}
+
+.services-content ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px; /* Padding for alignment */
+}
+
+.services-content li {
+  margin-bottom: 10px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center-align service items */
+  gap: 20px;
+  padding: 20px;
+}
+
+.service-item {
+  background: #fff; /* Clean white background */
+  border: 1px solid #ddd; /* Subtle border for separation */
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Slight rounding for a modern look */
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for image */
+}
+
+.service-item h3 {
+  margin: 15px 0 10px;
+  font-size: 1.4rem; /* Slightly larger for emphasis */
+  color: #0078d7; /* Match header color */
+  font-weight: bold;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #666; /* Neutral gray for text */
+}
+
+@media (max-width: 768px) {
+  .services-list {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items */
+  }
+
+  .service-item {
+    max-width: 90%; /* Full width on smaller screens */
+  }
+}

@@ -1,0 +1,113 @@
+.our-team-page {
+  position: relative;
+  min-height: 100vh;
+  background-color: #f9f9f9; /* Light background for readability */
+  font-family: Arial, sans-serif;
+}
+
+.our-team-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #0078d7; /* Header background color */
+  color: #fff; /* Header text color */
+}
+
+.our-team-header h2 {
+  font-size: 2.5rem; /* Slightly larger for emphasis */
+  margin-bottom: 10px;
+}
+
+.nav-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Space between navigation links */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* Primary link color */
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #005bb5; /* Hover background */
+  color: #fff; /* Hover text color */
+}
+
+.our-team-content {
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.our-team-content h3, .our-team-content h4 {
+  color: #333;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.our-team-content p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.team-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center; /* Center aligns the team members */
+  margin-top: 20px;
+}
+
+.team-member {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+  max-width: 250px; /* Slightly larger for better visibility */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%; /* Makes images circular */
+  margin-bottom: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
+
+.team-member h3 {
+  margin: 10px 0;
+  font-size: 1.4rem; /* Larger for prominence */
+  color: #0078d7; /* Match header color */
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .team-list {
+    flex-direction: column; /* Stack team members vertically on smaller screens */
+  }
+
+  .team-member {
+    max-width: 100%; /* Full width for smaller screens */
+  }
+}

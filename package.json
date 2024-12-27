@@ -1,0 +1,42 @@
+{
+  "name": "mca_website",
+  "version": "1.0.0",
+  "description": "A robust website for MCA Software Solutions",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "backend": "nodemon server/server.js",
+    "dev": "concurrently \"yarn backend\" \"yarn start\""
+  },
+  "author": "Christopher Oladimeji",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.22",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
